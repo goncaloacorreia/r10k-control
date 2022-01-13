@@ -3,4 +3,4 @@ node agent1.local {
   include ntp
 }
 
-hiera_include('class')
+hiera_include('classes')
