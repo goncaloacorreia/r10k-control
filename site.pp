@@ -1,3 +1,3 @@
-node agent1.local {
+node agent1.locall {
   include ntp
 }
