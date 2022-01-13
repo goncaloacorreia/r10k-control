@@ -3,4 +3,6 @@ node agent1.local {
   include ntp
 }
 
-hiera_include('classes')
+class { 'ntp':
+  servers => [ '2.europe.pool.ntp.org' ],
+}
