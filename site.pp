@@ -1,4 +1,4 @@
-node default {
+node agent1.local {
   # Find the first instance of `classes` in hiera data and includes unique values. Does not merge results.
   $classes = lookup('classes', Variant[String,Array[String]])
   case $classes {
