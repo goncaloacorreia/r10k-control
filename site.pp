@@ -1,1 +1,3 @@
-hiera_include('classes')
+node default {
+  lookup('classes').include
+}
