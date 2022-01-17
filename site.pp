@@ -1,7 +1,5 @@
-
 node agent1.local {
   include ntp
-  hiera_include('classes')
 }
 
 class { 'ntp':
@@ -10,8 +8,3 @@ class { 'ntp':
   '2.europe.pool.ntp.org',
   '3.europe.pool.ntp.org' ],
 }
-
-
-
-
-
