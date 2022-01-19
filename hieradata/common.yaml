@@ -1,6 +1,3 @@
 ---
-classes:
- - 'profile::base'
-
 ntp::servers:
   - 1.europe.pool.ntp.org
