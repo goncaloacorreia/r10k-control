@@ -3,9 +3,7 @@ node agent1.local {
 }
 
 class { 'ntp':
-  servers => [ '0.europe.pool.ntp.org',
-  '1.europe.pool.ntp.org',
-  '2.europe.pool.ntp.org',
-  '3.europe.pool.ntp.org' ],
+  servers  => [ 'ntp1.corp.com', 'ntp2.corp.com' ],
+  interfaces => ['127.0.0.1', '1.2.3.4']
 }
 
